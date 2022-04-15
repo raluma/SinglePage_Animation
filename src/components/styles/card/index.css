@@ -1,14 +1,41 @@
 .card {
-   @apply flex 
-   flex-row 
-   flex-wrap 
-   mx-4 
-   my-auto
-   pl-14
+   @apply style3
 }
 
 .style1 {
-    @apply border-2 
-    border-blue-600
-    py-10
+   @apply md:flex 
+   md:flex-row 
+   md:flex-wrap 
+   md:mx-52
+    
+   my-auto
+   ml-28
+}
+
+.style2 {
+    @apply md:h-72
+    md:mx-16
+    
+    lg:mx-44
+
+    xl:mx-80
+    
+    flex 
+    flex-col
+    flex-wrap 
+    my-auto
+    ml-20
+}
+
+.style3 {
+    @apply lg:flex 
+    lg:flex-row
+
+    md:ml-56
+
+    xl:ml-0
+
+    flex 
+    flex-col
+    flex-wrap 
 }
