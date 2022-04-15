@@ -1,0 +1,14 @@
+.card {
+   @apply flex 
+   flex-row 
+   flex-wrap 
+   mx-4 
+   my-auto
+   pl-14
+}
+
+.style1 {
+    @apply border-2 
+    border-blue-600
+    py-10
+}

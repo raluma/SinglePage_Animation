@@ -1,0 +1,24 @@
+.picture {
+    @apply flex flex-row flex-wrap w-56 h-20;
+}
+
+.picture-img {
+    @apply rounded-xl w-16 h-16;
+}
+
+.p-blue {
+    @apply text-blue-600;
+}
+
+.picture-box {
+
+}
+
+.picture-name {
+    @apply font-light font-serif;
+}
+
+.picture-job {
+    @apply p-blue;
+    @apply font-sans;
+}
