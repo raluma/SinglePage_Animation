@@ -6,6 +6,13 @@
     @apply style2-picture-img
 }
 
+.picture-img-view {
+    @apply w-96 duration-500 
+    rounded-full cursor-pointer
+    shadow-black
+    shadow-2xl
+}
+
 .picture-box {
     @apply style2-picture-box
 }
