@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Link, Route } from "wouter"
+import { Route } from "wouter"
 import Home from "./pages/Home"
 
 export default function App() {
